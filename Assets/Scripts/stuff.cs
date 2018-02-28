@@ -11,6 +11,6 @@ public class stuff : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		
+		//do stuff
 	}
 }
