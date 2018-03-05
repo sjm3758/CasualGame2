@@ -21,7 +21,7 @@ public class PuzzlePiece : MonoBehaviour
         //each segment has a fill property indicating if it's inside the outline
 
         //get board size for drag and drop behavior
-        boardSize = transform.parent.GetComponentInParent<RectTransform>().rect.size / 2.0f;
+        //boardSize = transform.parent.GetComponentInParent<RectTransform>().rect.size / 2.0f;
     }
 
     // Update is called once per frame
