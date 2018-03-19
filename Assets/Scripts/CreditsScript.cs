@@ -2,10 +2,11 @@
 using System.Collections.Generic;
 using UnityEngine;
 using UnityEngine.UI;
+using UnityEngine.SceneManagement;
 
-public class Credits : MonoBehaviour {
+public class CreditsScript : MonoBehaviour {
 
-    public Button btn;
+    private Button btn;
 
 	// Use this for initialization
 	void Start () {
@@ -20,6 +21,6 @@ public class Credits : MonoBehaviour {
 
     void SwitchToCredits()
     {
-
+        SceneManager.LoadScene("CreditsScene");
     }
 }
