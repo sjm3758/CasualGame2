@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class stuff : MonoBehaviour {
+public class Grid : MonoBehaviour {
 
 	// Use this for initialization
 	void Start () {
@@ -11,6 +11,6 @@ public class stuff : MonoBehaviour {
 	
 	// Update is called once per frame
 	void Update () {
-		//do stuff
+		
 	}
 }
