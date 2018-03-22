@@ -4,7 +4,7 @@ using UnityEngine;
 
 public class TileCheck : MonoBehaviour {
 
-    bool inTile = false;
+    public bool inTile = false;
 
 	// Use this for initialization
 	void Start () {
