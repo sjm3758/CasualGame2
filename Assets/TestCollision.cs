@@ -40,4 +40,13 @@ public class TestCollision : MonoBehaviour {
 
         }
     }
+
+    private void OnTriggerExit2D(Collider2D coll)
+    {
+        if (coll.gameObject.tag == "Player")
+        {
+            inPosition = false;
+
+        }
+    }
 }
