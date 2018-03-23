@@ -4,21 +4,31 @@ using UnityEngine;
 
 public class TestCollision : MonoBehaviour {
 
-	// Use this for initialization
-	void Start () {
-		
-	}
-	
-	// Update is called once per frame
-	void Update () {
-		
-	}
+    public bool inTile;
+    public bool inPosition;
 
-    void OnTriggerEnter2D (Collider2D coll)
+    // Use this for initialization
+    void Start()
+    {
+
+        inPosition = false;
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        if (Input.GetMouseButtonUp(0) && inPosition)
+        {
+            inTile = true;
+        }
+    }
+
+    void OnTriggerEnter2D(Collider2D coll)
     {
         if (coll.gameObject.tag == "Player")
         {
-            Debug.Log("Entered");
+            
+
         }
     }
 
@@ -26,7 +36,8 @@ public class TestCollision : MonoBehaviour {
     {
         if (coll.gameObject.tag == "Player")
         {
-            Debug.Log("In Position");
+            inPosition = true;
+
         }
     }
 }
