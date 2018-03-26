@@ -1,10 +1,13 @@
 ﻿using System.Collections;
 using System.Collections.Generic;
 using UnityEngine;
+using UnityEngine.Tilemaps;
 
 public class TestDrag : MonoBehaviour {
 
     bool isPicked;
+    //give the script access to the grid
+    public Tilemap grid;
 	
     // Use this for initialization
 	void Start () {
@@ -16,6 +19,11 @@ public class TestDrag : MonoBehaviour {
         if (Input.GetMouseButtonUp(0))
         {
             isPicked = false;
+            //snap piece to grid
+            Vector2 mousePos = Input.mousePosition;
+            Vector3 cellPos = grid.LocalToCell(mousePos);
+            transform.position = cellPos;
+            //UnityEngine.Debug.Log("Snapping to " + cellPos);
         }
         if (isPicked == true)
         {
