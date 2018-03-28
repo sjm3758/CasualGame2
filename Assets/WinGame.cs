@@ -16,9 +16,4 @@ public class WinGame : MonoBehaviour {
             Debug.Log("Win");
         }
     }
-
-    void winGame()
-    {
-      
-    }
 }
