@@ -39,12 +39,12 @@ public class TestDrag : MonoBehaviour {
                 }
                 if (pos.y > -2f && pos.y < -0.6f)
                 {
-                    transform.position = new Vector2(1.5f, -1.5f);
+                    transform.position = new Vector2(0.5f, -1.5f);
                     Debug.Log("Activated");
                 }
                 if (pos.y > -3f && pos.y < -1.6f)
                 {
-                    transform.position = new Vector2(1.5f, -2.5f);
+                    transform.position = new Vector2(0.5f, -2.5f);
                     Debug.Log("Activated");
                 }
 
@@ -72,17 +72,17 @@ public class TestDrag : MonoBehaviour {
             {
                 if (pos.y > -2f && pos.y < -0.6f)
                 {
-                    transform.position = new Vector2(1.5f, -1.5f);
+                    transform.position = new Vector2(2.5f, -1.5f);
                     Debug.Log("Activated");
                 }
                 if (pos.y > -1f && pos.y < -0.1f)
                 {
-                    transform.position = new Vector2(1.5f, -0.5f);
+                    transform.position = new Vector2(2.5f, -0.5f);
                     Debug.Log("Activated");
                 }
                 if (pos.y > -3f && pos.y < -1.6f)
                 {
-                    transform.position = new Vector2(1.5f, -2.5f);
+                    transform.position = new Vector2(2.5f, -2.5f);
                     Debug.Log("Activated");
                 }
             }
