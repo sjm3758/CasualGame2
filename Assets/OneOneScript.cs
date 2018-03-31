@@ -7,7 +7,8 @@ public class OneOneScript : MonoBehaviour {
     Vector3 pos;
 
 	// Use this for initialization
-	void Start () {
+	void Start ()
+    {
         pos = this.transform.position;
     }
 	

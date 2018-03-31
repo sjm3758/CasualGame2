@@ -39,10 +39,10 @@ public class TestDrag : MonoBehaviour {
     {
         if (coll.gameObject.tag == "Colission")
         {
-            if (!isPicked && inBounds)
+            if (!isPicked)
             {
-                inPosition = true;
-               // Debug.Log("In Position");
+               inPosition = true;
+               Debug.Log("In Position");
             }
             
         }

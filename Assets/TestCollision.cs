@@ -4,22 +4,22 @@ using UnityEngine;
 
 public class TestCollision : MonoBehaviour {
 
-    public bool inTile;
-    public bool inPosition;
+   // public bool inTile;
+   // public bool inPosition;
 
     // Use this for initialization
     void Start()
     {
 
-        inPosition = false;
+        //inPosition = false;
     }
 
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetMouseButtonUp(0) && inPosition)
+        if (Input.GetMouseButtonUp(0))
         {
-            inTile = true;
+           // inTile = true;
         }
     }
 

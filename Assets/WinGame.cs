@@ -6,13 +6,17 @@ public class WinGame : MonoBehaviour {
 
     GameObject[] pieces;
     public bool winTheGame;
+    TestDrag[] drags;
+    
 
 	// Use this for initialization
 	void Start () {
         pieces = GameObject.FindGameObjectsWithTag("Player");
+        drags = TestDrag.FindObjectsOfType(typeof(TestDrag)) as TestDrag[];
         foreach (GameObject piece in pieces)
         {
-            
+            Debug.Log("A Piece");
+           
         }
 	}
 	
@@ -35,9 +39,9 @@ public class WinGame : MonoBehaviour {
 
     public void Win()
     {
-        for (int i = 0; i < pieces.Length; i++)
+       /* foreach (TestDrag drag in drags)
         {
-            if (!pieces[i].GetComponent<TestDrag>().inPosition)
+            if (!drag.inPosition)
             {
                 winTheGame = false;
             }
@@ -46,5 +50,22 @@ public class WinGame : MonoBehaviour {
                 winTheGame = true;
             }
         }
+        */
+        for (int i = 0; i < pieces.Length; i++)
+        {
+            if (!pieces[i].GetComponent<TestDrag>().inPosition)
+            {
+                winTheGame = false;
+               // Debug.Log("Piece" + i + "not in position");
+            }
+            else
+            {
+                winTheGame = true;
+            }
+
+            
+        }
+
+        
     }
 }

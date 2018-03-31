@@ -5,7 +5,7 @@ using UnityEngine;
 public class OneTwoScript : MonoBehaviour {
 
     Vector3 pos;
-    //?
+    
     // Use this for initialization
     void Start()
     {
