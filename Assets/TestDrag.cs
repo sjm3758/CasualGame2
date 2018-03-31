@@ -6,7 +6,7 @@ public class TestDrag : MonoBehaviour {
 
     public bool isPicked;
     public bool inPosition;
-
+    public bool inBounds;
 
 	
     // Use this for initialization
@@ -47,9 +47,25 @@ public class TestDrag : MonoBehaviour {
             
         }
     }
+    //?
+
+   void OnTriggerEnter2D(Collider2D coll)
+    {
+        if (coll.gameObject.tag == "NoCollide")
+        {
+            Debug.Log("false");
+            inBounds = false;
+        }
+    }
 
    void OnTriggerExit2D(Collider2D coll)
     {
+        if (coll.gameObject.tag == "NoCollide")
+        {
+            inBounds = true;
+            Debug.Log("true");
+        }
+
         if (coll.gameObject.tag == "Colission")
         {
               inPosition = false;
