@@ -239,7 +239,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 121938847}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fb470a149dea4d040a832d8d8e1fb6b5, type: 3}
+  m_Script: {fileID: 11500000, guid: 5a9f3319d79aba54795008d08c7f9fef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!1001 &210809277
@@ -3844,6 +3844,17 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   isPicked: 0
   inPosition: 0
+--- !u!114 &877019292
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 877019290}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0cef30a817872d94a8662c17a5061500, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &1028041271
 GameObject:
   m_ObjectHideFlags: 0
