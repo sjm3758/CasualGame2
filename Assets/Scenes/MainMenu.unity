@@ -286,7 +286,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 1013060852}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: 270.99997, y: 123.999985, z: 0}
+  m_LocalPosition: {x: 270.84875, y: 123.90549, z: 0}
   m_LocalScale: {x: 0.999936, y: 0.999936, z: 0.999936}
   m_Children:
   - {fileID: 1465024847}
@@ -466,7 +466,7 @@ RectTransform:
   m_GameObject: {fileID: 1375777926}
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
   m_LocalPosition: {x: 0, y: 0, z: 90}
-  m_LocalScale: {x: 0.02, y: 0.02, z: 0.02}
+  m_LocalScale: {x: 0.020007564, y: 0.020007564, z: 0.020007564}
   m_Children:
   - {fileID: 2000466220}
   - {fileID: 1529662576}
@@ -849,6 +849,7 @@ GameObject:
   - component: {fileID: 2118791852}
   - component: {fileID: 2118791851}
   - component: {fileID: 2118791850}
+  - component: {fileID: 2118791853}
   m_Layer: 5
   m_Name: PlayButton
   m_TagString: Untagged
@@ -949,6 +950,17 @@ CanvasRenderer:
   m_PrefabParentObject: {fileID: 0}
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2118791848}
+--- !u!114 &2118791853
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 2118791848}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: bb9d3f9466476ef429a8044be6de7579, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &2130091975
 GameObject:
   m_ObjectHideFlags: 0
@@ -975,7 +987,7 @@ RectTransform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 2130091975}
   m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
-  m_LocalPosition: {x: -245.99997, y: -169.99998, z: 0}
+  m_LocalPosition: {x: -245.84875, y: -169.90549, z: 0}
   m_LocalScale: {x: 0.999936, y: 0.999936, z: 0.999936}
   m_Children:
   - {fileID: 12138932}
