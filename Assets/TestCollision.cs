@@ -36,7 +36,7 @@ public class TestCollision : MonoBehaviour {
     {
         if (coll.gameObject.tag == "Player")
         {
-            inPosition = true;
+        //    inPosition = true;
 
         }
     }
@@ -45,7 +45,7 @@ public class TestCollision : MonoBehaviour {
     {
         if (coll.gameObject.tag == "Player")
         {
-            inPosition = false;
+          //  inPosition = false;
 
         }
     }

@@ -25,6 +25,7 @@ GameObject:
   - component: {fileID: 114199428645464956}
   - component: {fileID: 61002855878725228}
   - component: {fileID: 50012876411261968}
+  - component: {fileID: 114680422756831400}
   m_Layer: 0
   m_Name: 1x1
   m_TagString: Player
@@ -127,6 +128,18 @@ MonoBehaviour:
   m_Enabled: 1
   m_EditorHideFlags: 0
   m_Script: {fileID: 11500000, guid: 3c7a7b927bb823643bcb690eca5e0ee0, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  isPicked: 0
+--- !u!114 &114680422756831400
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 1299129678912724}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 5a9f3319d79aba54795008d08c7f9fef, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!114 &114866567372260808
